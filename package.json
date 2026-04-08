@@ -1,0 +1,28 @@
+{
+  "name": "vibecheck",
+  "version": "1.0.0",
+  "description": "AI-powered sentiment micro-app for social media managers",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server.js\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "concurrently": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1",
+    "vitest": "^2.1.1",
+    "jsdom": "^25.0.1",
+    "@vitest/coverage-v8": "^2.1.1"
+  }
+}
